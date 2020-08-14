@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <script src="js/all.min.js"></script>
+    <title>Coffe Project</title>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <img src="img/preloader.gif" alt="preloader" class="preloader__items">
+    </div>
+
+    <!--x-- Preloader --x-->
+
+    <header class="header" id="header">
+        <!-- banner -->
+        <div class="banner">
+            <h1 class="banner__title bell-fonts">coffee Caprizi</h1>
+            <div class="banner__icons">
+                <a class="banner__social-icon" href="#">
+                    <i class="fab fa-facebook fa-fw"></i>
+                </a>
+                <a class="banner__social-icon" href="#">
+                    <i class="fab fa-twitter fa-fw"></i>
+                </a>
+                <a class="banner__social-icon" href="#">
+                    <i class="fab fa-github fa-fw"></i>
+                </a>
+                <a class="banner__social-icon" href="#">
+                    <i class="fab fa-youtube fa-fw"></i>
+                </a>
+            </div>
+        </div>
+
+        <!--x-- banner --x-->
+
+        <!-- Video -->
+        <article class="video__container">
+            <video class="video__item" autoplay muted loop>
+                <source src="video/coffee.mp4" type="video/mp4">
+                <source src="video/coffee.ogv" type="video/ogv">
+                <source src="video/coffee.webm" type="video/webm"> Your browser dosnt support Video Tags
+            </video>
+        </article>
+
+        <!--x-- Video --x-->
+
+        <!-- Nav Btn -->
+        <div class="navBtn">
+            <i class="fas fa-bars"></i>
+        </div>
+        <!-- nav -->
+        <nav class="nav">
+            <ul class="nav__links">
+                <!-- Logo -->
+                <li><a href="#" class="nav__single-links nav__logo"><img src="img/navLogo.svg" alt="logo"></a></li>
+                <li><a href="#header" class="nav__single-links">Home</a></li>
+                <li><a href="#about" class="nav__single-links">About</a></li>
+                <li><a href="#drink" class="nav__single-links">free drink</a></li>
+                <li><a href="#work" class="nav__single-links">work</a></li>
+                <li><a href="#contact" class="nav__single-links">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Video Switch -->
+        <div class="video__switch-container">
+            <div class="video__switch">
+                <span>on</span>
+                <span>off</span>
+                <div class="video__switch-btn"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section__padding" id="about">
+        <div class="grid__container grid__container-medium-2">
+            <!-- about Container -->
+            <article class="about__container">
+                <!-- first Child -->
+                <div class="section__title">
+                    <h1 class="section__title-name bell-fonts">our Story</h1>
+                    <div class="section__title-underline"></div>
+                    <p class="section__title-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem reprehenderit perferendis
+                        aspernatur doloremque aliquid libero, eum debitis veritatis voluptas sequi?
+                    </p>
+                </div>
+                <!-- second Child -->
+                <div class="about__img">
+                    <img src="img/aboutImg-1.jpeg" alt="about" class="about__img-item">
+                </div>
+            </article>
+            <!-- x-- of about-container --x-->
+            <!-- about Container -->
+            <article class="about__container">
+                <!-- first Child -->
+                <div class="section__title">
+                    <h1 class="section__title-name bell-fonts">what we do</h1>
+                    <div class="section__title-underline"></div>
+                    <p class="section__title-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem reprehenderit perferendis
+                        aspernatur doloremque aliquid libero, eum debitis veritatis voluptas sequi?
+                    </p>
+                </div>
+                <!-- second Child -->
+                <div class="about__img about__img-special">
+                    <img src="img/aboutImg-2.jpeg" alt="about" class="about__img-item">
+                </div>
+            </article>
+            <!-- x-- of about-container --x-->
+        </div>
+    </section>
+    <!--x-- About Section --x-->
+
+    <!-- drink section -->
+    <section class="drink section__padding" id="drink">
+        <div class="grid__container">
+            <!-- first item -->
+            <form class="drink__form" autocomplete="off">
+                <p class="drink__form-feedback">Bitte alle Felder ausfüllen!</p>
+                <h3 class="drink__form-title bell-fonts">to get free Drinks</h3>
+                <div class="drink__form-input">
+                    <input type="text" name="" id="" maxlength="15" class="input__name" placeholder="firstname"
+                        name="firstname">
+                </div>
+                <div class="drink__form-input">
+                    <input type="text" name="" id="" maxlength="15" class="input__lastname" placeholder="last name"
+                        name="lastname">
+                </div>
+                <div class="drink__form-input">
+                    <input type="email" name="" id="" maxlength="50" class="input__email" placeholder="E-Mail"
+                        name="email">
+                </div>
+                <input type="submit" value="sign up" class="input__submit">
+            </form>
+            <!-- second item -->
+            <article class="drink__card">
+                <h3 class="drink__card-title bell-fonts">Lucky People</h3>
+                <div class="drink__card-list">
+                    <div class="person">
+                        <img src="img/person-1.jpeg" alt="person1" class="person__thumbnail">
+                        <h4 class="person__name">Sascha</h4>
+                        <h4 class="person__lastname">Schmittinger</h4>
+                    </div>
+                    <div class="person">
+                        <img src="img/person-1.jpeg" alt="person1" class="person__thumbnail">
+                        <h4 class="person__name">Nicole</h4>
+                        <h4 class="person__lastname">Frieske</h4>
+                    </div>
+                </div>
+
+            </article>
+
+        </div>
+    </section>
+
+
+    <!--x-- drink section --x-->
+
+    <!-- Work Section -->
+
+    <section class="work section__padding" id="work">
+        <!-- Section Title -->
+        <div class="section__title section__title-left">
+            <h1 class="section__title-name bell-fonts">My Work</h1>
+            <div class="section__title-underline"></div>
+        </div>
+        <!--x-- Section Title --x-->
+        <div class="work__container">
+            <!-- single Work Item -->
+            <article class="work__item item__1">
+                <img src="img/work-1.jpeg" alt="work-item-image" class="work__item-image">
+                <a href="#" class="work__item-icon" data-id="1">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <!--x-- single Work Item --x-->
+
+            <!-- single Work Item -->
+            <article class="work__item item__2">
+                <img src="img/work-2.jpeg" alt="work-item-image" class="work__item-image">
+                <a href="#" class="work__item-icon" data-id="2">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <!--x-- single Work Item --x-->
+
+            <!-- single Work Item -->
+            <article class="work__item item__3">
+                <img src="img/work-3.jpeg" alt="work-item-image" class="work__item-image">
+                <a href="#" class="work__item-icon" data-id="3">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <!--x-- single Work Item --x-->
+
+            <!-- single Work Item -->
+            <article class="work__item item__4">
+                <img src="img/work-4.jpeg" alt="work-item-image" class="work__item-image">
+                <a href="#" class="work__item-icon" data-id="4">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <!--x-- single Work Item --x-->
+
+            <!-- single Work Item -->
+            <article class="work__item item__5">
+                <img src="img/work-5.jpeg" alt="work-item-image" class="work__item-image">
+                <a href="#" class="work__item-icon" data-id="5">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <!--x-- single Work Item --x-->
+
+            <!-- single Work Item -->
+            <article class="work__item item__6">
+                <img src="img/work-6.jpeg" alt="work-item-image" class="work__item-image">
+                <a href="#" class="work__item-icon" data-id="6">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <!--x-- single Work Item --x-->
+
+            <!-- single Work Item -->
+            <article class="work__item item__7">
+                <img src="img/work-7.jpeg" alt="work-item-image" class="work__item-image">
+                <a href="#" class="work__item-icon" data-id="7">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <!--x-- single Work Item --x-->
+
+            <!-- single Work Item -->
+            <article class="work__item item__8">
+                <img src="img/work-8.jpeg" alt="work-item-image" class="work__item-image">
+                <a href="#" class="work__item-icon" data-id="8">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <!--x-- single Work Item --x-->
+
+            <!-- single Work Item -->
+            <article class="work__item item__9">
+                <img src="img/work-9.jpeg" alt="work-item-image" class="work__item-image">
+                <a href="#" class="work__item-icon" data-id="9">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+            <!--x-- single Work Item --x-->
+        </div>
+
+        <!-- modal -->
+        <div class="work__modal">
+            <div class="work__modal-item"></div>
+            <div class="work__modal-close">
+                <i class="far fa-window-close"></i>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--x-- Work Section --x-->
+
+    <!-- Contact Section -->
+
+    <section class="contact section__padding" id="contact">
+        <!-- Section Title -->
+        <div class="section__title section__title-left">
+            <h1 class="section__title-name bell-fonts">Contact Info</h1>
+            <div class="section__title-underline"></div>
+        </div>
+        <!--x-- Section Title --x-->
+        <div class="contact__container">
+            <iframe class="contact__map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d321687.0988204837!2d6.6871375069076135!3d50.95736769236849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf259169ab2fe5%3A0x42760fc4a2a77f0!2zS8O2bG4!5e0!3m2!1sde!2sde!4v1597388123829!5m2!1sde!2sde"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            <div class="contact__info">
+                <!-- Single Contact Item -->
+                <div class="contact__item">
+                    <div class="contact__item-icon">
+                        <i class="fas fa-map-pin"></i>
+                    </div>
+                    <h2 class="contact__item-title">adress</h2>
+                    <p class="contact__item-text">Meerfeldstr. 56, Köln - Germany</p>
+                </div>
+                <!--x-- Single Contact Item --x-->
+                <!-- Single Contact Item -->
+                <div class="contact__item">
+                    <div class="contact__item-icon">
+                        <i class="fas fa-headphones-alt"></i>
+                    </div>
+                    <h2 class="contact__item-title">support</h2>
+                    <p class="contact__item-text">
+                        <span>
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        +1520 /7143839
+                    </p>
+                    <p class="contact__item-text">
+                        <span>
+                            <i class="fas fa-envelope"></i>
+                        </span>Sascha-Schmittinger@outlook.com
+                    </p>
+                </div>
+                <!--x-- Single Contact Item --x-->
+                <!-- Single Contact Item -->
+                <div class="contact__item">
+                    <div class="contact__item-icon">
+                        <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <h2 class="contact__item-title">Work time</h2>
+                    <p class="contact__item-text">Monday - Friday 8:00AM - 8:00PM</p>
+                    <p class="contact__item-text">Saturday - Sunday 9:00AM - 10:00PM</p>
+                </div>
+                <!--x-- Single Contact Item --x-->
+            </div>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
+
+<!-- 04:49:47 -->
